@@ -29,7 +29,8 @@
         "pestphp/pest": "^3.7",
         "pestphp/pest-plugin-laravel": "^3.0",
         "itsgoingd/clockwork": "v5.3.2",
-        "squizlabs/php_codesniffer":"*"
+        "squizlabs/php_codesniffer":"*",
+        "barryvdh/laravel-debugbar": "^3.14"
     },
     "autoload": {
         "psr-4": {
