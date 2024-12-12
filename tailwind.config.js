@@ -14,8 +14,15 @@ export default {
 
     theme: {
         extend: {
+            screens: {
+                sm: '480px',
+                md: '768px',
+                lg: '976px',
+                xl: '1440px',
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Graphik','sans-serif'],
+                serif:['Merriweather', 'serif'],
             },
             colors: {
                 'primary': {
@@ -84,6 +91,7 @@ export default {
                     900: '#f8f8f8'
                 }
             }
+
         },
     },
 
