@@ -1,0 +1,52 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @import url('https://rsms.me/inter/inter.css');
+            .inter-text { font-family: 'Inter var', system-ui, sans-serif; }
+        </style>
+    </defs>
+
+    <!-- Version 1: Modern Sophisticated -->
+    <g transform="translate(50, 50)">
+        <!-- Stacked books with gradient effect -->
+        <rect x="20" y="40" width="100" height="20" rx="2" fill="#2660a4"/> <!-- Lapis Lazuli -->
+        <rect x="15" y="60" width="100" height="20" rx="2" fill="#00afb9"/> <!-- Verdigris -->
+        <rect x="10" y="80" width="100" height="20" rx="2" fill="#cea2ac"/> <!-- Rosy Brown -->
+
+        <!-- Reading line/bookmark -->
+        <path d="M30 30 C 50 20, 70 60, 90 30" stroke="#1f271b" stroke-width="3" fill="none"/>
+
+        <text x="140" y="75" class="inter-text" font-weight="700" font-size="38" fill="#1f271b">BOOKWORM</text>
+        <text x="140" y="95" class="inter-text" font-weight="500" font-size="16" fill="#2660a4">Your Literary Journey
+            Awaits
+        </text>
+    </g>
+
+    <!-- Version 2: Minimal Icon -->
+    <g transform="translate(50, 200)">
+        <circle cx="60" cy="60" r="45" fill="#2660a4"/>
+        <path d="M35 60 Q 60 30, 85 60 Q 60 90, 35 60" fill="#00afb9"/>
+        <text x="120" y="75" class="inter-text" font-weight="700" font-size="38" fill="#1f271b">BOOKWORM</text>
+        <text x="120" y="95" class="inter-text" font-weight="500" font-size="16" fill="#2660a4">Read. Rate. Remember.
+        </text>
+    </g>
+
+    <!-- Version 3: Abstract Geometric -->
+    <g transform="translate(50, 350)">
+        <!-- Abstract book pages -->
+        <path d="M20 40 L80 40 L80 100 L20 100 C 40 70, 40 70, 20 40" fill="#2660a4"/>
+        <path d="M80 40 L140 40 L140 100 L80 100 C 100 70, 100 70, 80 40" fill="#00afb9"/>
+        <text x="160" y="75" class="inter-text" font-weight="700" font-size="38" fill="#1f271b">BOOKWORM</text>
+        <text x="160" y="95" class="inter-text" font-weight="500" font-size="16" fill="#2660a4">Share Your Story</text>
+    </g>
+
+    <!-- Version 4: Letterboxd-Inspired -->
+    <g transform="translate(450, 50)">
+        <!-- Minimalist book stack -->
+        <rect x="0" y="0" width="35" height="80" rx="2" fill="#2660a4" opacity="0.9"/>
+        <rect x="15" y="10" width="35" height="80" rx="2" fill="#00afb9" opacity="0.8"/>
+        <rect x="30" y="20" width="35" height="80" rx="2" fill="#cea2ac" opacity="0.7"/>
+        <text x="80" y="55" class="inter-text" font-weight="700" font-size="38" fill="#1f271b">BOOKWORM</text>
+        <text x="80" y="75" class="inter-text" font-weight="500" font-size="16" fill="#2660a4">Your Reading Diary</text>
+    </g>
+</svg>

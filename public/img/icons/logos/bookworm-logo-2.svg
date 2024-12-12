@@ -1,0 +1,23 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle for the worm -->
+    <circle cx="80" cy="100" r="60" fill="#f0f4f8"/>
+
+    <!-- Book stack -->
+    <rect x="40" y="70" width="80" height="15" rx="2" fill="#4a5568" transform="rotate(-5 80 100)"/>
+    <rect x="38" y="85" width="80" height="15" rx="2" fill="#667eea" transform="rotate(-5 80 100)"/>
+    <rect x="36" y="100" width="80" height="15" rx="2" fill="#9f7aea" transform="rotate(-5 80 100)"/>
+
+    <!-- Bookworm character -->
+    <circle cx="95" cy="65" r="12" fill="#48bb78"/> <!-- Head -->
+    <path d="M 90 75 Q 95 85 100 75" stroke="#48bb78" stroke-width="4" fill="none"/> <!-- Smile -->
+    <circle cx="91" cy="62" r="2" fill="black"/> <!-- Left eye -->
+    <circle cx="99" cy="62" r="2" fill="black"/> <!-- Right eye -->
+    <path d="M 95 65 C 85 55, 75 60, 65 70" stroke="#48bb78" stroke-width="8" fill="none"/> <!-- Body -->
+
+    <!-- Text elements -->
+    <text x="160" y="85" font-family="Arial" font-weight="bold" font-size="42" fill="#2d3748">Bookworm</text>
+    <text x="160" y="115" font-family="Arial" font-size="16" fill="#4a5568">Where readers connect</text>
+    <text x="160" y="140" font-family="Arial" font-style="italic" font-size="14" fill="#718096">Share • Discover •
+        Connect
+    </text>
+</svg>
